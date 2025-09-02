@@ -1,12 +1,31 @@
-# React + Vite
+# Earthquake Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Earthquake Visualizer is a web application that displays real-time earthquake data on an interactive world map. It uses the USGS Earthquake API to fetch live data and provides users with a clear and intuitive way to explore seismic activity.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Real-time earthquake data from the USGS API
+- Interactive world map with zoom and pan
+- Color-coded markers based on magnitude:
+  - Green: Magnitude < 3  
+  - Orange: 3 ≤ Magnitude < 5  
+  - Red: Magnitude ≥ 5
+- Sidebar list of recent earthquakes with quick navigation
+- Detailed popups showing location, magnitude, depth, and time
+- Red Zone simulation to highlight high-risk areas
+- Responsive design for desktop and mobile
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React  
+- Leaflet and React-Leaflet  
+- Tailwind CSS  
+- USGS Earthquake API  
+- Netlify (Deployment)
+
+## Setup
+
+Clone the repository:
+```bash
+git clone https://github.com/kirti6666/Earthquake-Visualizer.git
+cd Earthquake-Visualizer
