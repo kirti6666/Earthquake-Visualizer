@@ -29,3 +29,6 @@ Clone the repository:
 ```bash
 git clone https://github.com/kirti6666/Earthquake-Visualizer.git
 cd Earthquake-Visualizer
+
+
+Deployed WEB APP link : https://earthquackvisualizer.netlify.app/
